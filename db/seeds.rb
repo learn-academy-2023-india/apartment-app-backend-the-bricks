@@ -11,7 +11,7 @@ user1_apartments =[
     unit: "30", 
     city: "New York" 
     state: "NY"
-    footage: 2000, 
+    square_footage: 2000, 
     price: 13000, 
     bedrooms: 5, 
     bathrooms: 3, 
@@ -41,7 +41,7 @@ user3_apartments =[
     unit: "3", 
     city: "Miami" 
     state: "FL"
-    footage: 6000, 
+    square_footage: 6000, 
     price: 170000, 
     bedrooms: 6, 
     bathrooms: 4, 
