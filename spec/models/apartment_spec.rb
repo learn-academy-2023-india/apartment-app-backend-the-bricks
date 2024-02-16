@@ -24,7 +24,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate unit' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",    
     city: "New York", 
     state: "NY",
@@ -39,7 +39,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate city' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",   
     state: "NY",
@@ -54,7 +54,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate state' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",   
     city: "NY",    
@@ -69,7 +69,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate sqaure_footage' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",
     state: "NY",   
@@ -84,7 +84,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate price' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",
     state: "NY",   
@@ -99,7 +99,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate bedrooms' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",
     state: "NY",   
@@ -114,7 +114,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate bathrooms' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",
     state: "NY",   
@@ -129,7 +129,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate pets' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",
     state: "NY",   
@@ -144,7 +144,7 @@ RSpec.describe Apartment, type: :model do
   end
 
   it 'should validate image' do 
-    apartment = Apartment.create(
+    apartment = user.apartments.create(
     street: "456 Bogus Blvd",
     unit: "30",
     state: "NY",   
